@@ -28,8 +28,7 @@ For every session, you will not have to complete all the steps required above to
 - Mainly, first, use the three commands below to work on your own branch and get the new session's questions/instructions
   ```bash
    git switch {your first name}_{your last name)
-   git fetch origin
-   git merge origin/main
+   git pull origin/main
    ```
 - Then, `cd` to the session's folder and solve!
 
