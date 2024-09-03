@@ -6,36 +6,25 @@ Welcome to **Session 1** of the bootcamp! Today, you'll tackle three short codin
 
 In this session, you'll complete three coding questions, each designed to reinforce key programming concepts. Be sure to read the instructions carefully and feel free to ask your instructor if you have any questions!
 
-### Question 1: Creating and Printing a Variable
+### Question 1: Variables and Constants
 
 **Task:**  
-Create a variable with any data type of your choice (e.g., integer, boolean, string) and print its value.
-
-**Example:**
-```Swift
-# Example:
-var my_variable = "Hello, World!"
-print(my_variable)
-```
+What is the difference between a variable and a constant in Swift?
 
 
-### Question 2: 
+
+
+### Question 2: Conditionals
 
 **Task:**  
+What keyword is used to start a conditional statement in Swift?
 
-**Example:**
-```Swift
-# Example:
-```
 
-### Question 3: 
+### Question 3: Counters
 
 **Task:**  
+What operator is used to increment a value by 1 in Swift?
 
-**Example:**
-```Swift
-# Example:
-```
 
 
 
