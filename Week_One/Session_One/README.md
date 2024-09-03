@@ -9,7 +9,8 @@ In this session, you'll complete three coding questions, each designed to reinfo
 ### Question 1: Variables and Constants
 
 **Task:**  
-What is the difference between a variable and a constant in Swift?
+Declare a variable called greeting and assign it the value "Hello, World!".
+Declare a constant called pi and assign it the value 3.14159.
 
 
 
@@ -17,13 +18,14 @@ What is the difference between a variable and a constant in Swift?
 ### Question 2: Conditionals
 
 **Task:**  
-What keyword is used to start a conditional statement in Swift?
+Create an if statement that checks if a variable number is greater than 10. If it is, print "Number is greater than 10". If not, print "Number is 10 or less".
 
 
-### Question 3: Counters
+### Question 3: Operators
 
 **Task:**  
-What operator is used to increment a value by 1 in Swift?
+Declare two variables a and b with values 5 and 3 respectively.
+Calculate the sum, difference, product, and quotient, and print each result.
 
 
 
