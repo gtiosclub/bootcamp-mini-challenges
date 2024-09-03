@@ -10,12 +10,20 @@ In this session, you'll complete three coding questions, each designed to reinfo
 1. Declare a variable called `greeting` and assign it the value `"Hello, World!"`.
 2. Declare a constant called `pi` and assign it the value `3.14159`.
 
+Make sure to stage your answer and commit it to Github!
+
 ### Task 2: Conditionals
 Create an if statement that checks if a variable number is greater than 10. If it is, print `"Number is greater than 10"`. If not, print `"Number is 10 or less"`.
+
+Make sure to stage your answer and commit it to Github!
+
 
 ### Task 3: Operators
 Declare two variables `a` and `b` with values 5 and 3 respectively.
 Calculate the sum, difference, product, and quotient, and print each result.
+
+Make sure to stage your answer and commit it to Github!
+
 
 ## Done?
 1. Before logging and saving your changes remotely, you need to specify the changed files you want to save:
