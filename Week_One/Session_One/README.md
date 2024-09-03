@@ -17,6 +17,22 @@ Create an if statement that checks if a variable number is greater than 10. If i
 Declare two variables `a` and `b` with values 5 and 3 respectively.
 Calculate the sum, difference, product, and quotient, and print each result.
 
-
-
+## Done?
+1. Before logging and saving your changes remotely, you need to specify the changed files you want to save:
+   1. To save *all* files in the directory you're in, perform the following command.
+   ```bash
+   git add .
+   ```
+   2. To save a specific file/folder from the directory you're in, perform the following command.
+   ```bash
+   git add {path to file, exclude the brackets}
+   ```
+3. While in the same directory, make sure you've logged/committed your changes with the following command.
+```bash
+git commit -m "{describe what changes you made to the file here}"
+```
+3. If the previous step was already complete, save your changes to the remote repository as follows.
+```bash
+git push
+```
 
