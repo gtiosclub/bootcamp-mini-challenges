@@ -1,3 +1,4 @@
+test edit
 # iOS Club - Bootcamp Mini-Challenges
 
 Get ready to test your knowledge with these mini-challenges! We'll be updating this repository every session to introduce more mini-challenges.
