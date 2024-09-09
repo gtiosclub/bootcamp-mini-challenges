@@ -1,5 +1,3 @@
-import Cocoa
-
 //-------------------------------------------------------------------------//Part 1 - Instructions\\-------------------------------------------------------------------\\
 
 """
@@ -15,6 +13,4 @@ Additionally, please feel free to ask your instructor if you need any help!
 //2)
 
 //3)
-
-
 
