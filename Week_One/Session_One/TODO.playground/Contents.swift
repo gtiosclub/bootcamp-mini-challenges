@@ -13,6 +13,12 @@ var greeting = "Hello, World!"
 let pi = 3.14159
 
 //2)
+var number = 1
+if (number > 10) {
+    print("Number is greater than 10")
+} else {
+    print("Number is 10 or less")
+}
 
 //3)
 
