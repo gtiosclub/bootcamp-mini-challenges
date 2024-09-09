@@ -13,7 +13,7 @@ var greeting = "Hello, World!"
 let pi = 3.14159
 
 //2)
-var number = 1
+var number = 11
 if (number > 10) {
     print("Number is greater than 10")
 } else {
@@ -21,4 +21,10 @@ if (number > 10) {
 }
 
 //3)
+var a = 5
+var b = 3
+
+print(a + b)
+print(a * b)
+print(a / b)
 
