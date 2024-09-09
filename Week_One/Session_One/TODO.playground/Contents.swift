@@ -9,8 +9,33 @@ Additionally, please feel free to ask your instructor if you need any help!
 //----------------------------------------------------------------------------//Part 2 - Coding\\----------------------------------------------------------------------\\
 
 //1)
+var greeting: String = "Hellow, World"
+var pi: Double = 3.14159
 
 //2)
+var num: Int = 20
+if num>10{
+    print("Number is greater than 10")
+}
+else{
+    print("Number is 10 or less")
+}
 
 //3)
-
+var a: Int = 5
+var b: Int = 3
+var sum = a+b
+var difference = a-b
+var product = a*b
+var quotient = a/b
+print("Sum: \(sum)")
+print("Difference: \(difference)")
+print("Product: \(product)")
+print("Quotient: \(quotient)")
+guard a >= 5 else{
+    fatalError("Exiting program")
+    
+}
+guard a>4 || b<3 else{
+    fatalError("Exiting program")
+}
