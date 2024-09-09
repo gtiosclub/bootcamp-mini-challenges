@@ -13,7 +13,7 @@ In this session, you'll complete three coding questions, each designed to reinfo
 Make sure to stage your answer and commit it to Github!
 
 ### Task 2: Conditionals
-Create an if statement that checks if a variable number is greater than 10. If it is, print `"Number is greater than 10"`. If not, print `"Number is 10 or less"`.
+Create an if statement that checks if a variable vafnumber is greater than 10. If it is, print `"Number is greater than 10"`. If not, print `"Number is 10 or less"`.
 
 Make sure to stage your answer and commit it to Github!
 
