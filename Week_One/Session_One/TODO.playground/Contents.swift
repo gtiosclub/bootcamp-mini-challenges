@@ -9,8 +9,11 @@ Additionally, please feel free to ask your instructor if you need any help!
 //----------------------------------------------------------------------------//Part 2 - Coding\\----------------------------------------------------------------------\\
 
 //1)
+var greeting = "Hello World"
+let pi = 3.14159
 
 //2)
+
 
 //3)
 
