@@ -19,8 +19,10 @@ Make sure to stage your answer and commit it to Github!
 
 
 ### Task 3: Operators
-Declare two variables `a` and `b` with values 5 and 3 respectively.
-Calculate the sum, difference, product, and quotient, and print each result.
+1. Declare two variables `a` and `b` with values 5 and 3 respectively.
+2. Calculate the sum, difference, product, and quotient, and print each result.
+3. With a `guard` statement, check that `a` is great than or equal to 5. Proceed with the program if it is, otherwise run the following block of code -> `fatalError("Exiting program")`
+4. With another `guard` statement, check that `a` is great than 4 or `b` is less than 3. Proceed with the program if it is, otherwise run the following block of code -> `fatalError("Exiting program")`
 
 Make sure to stage your answer and commit it to Github!
 
