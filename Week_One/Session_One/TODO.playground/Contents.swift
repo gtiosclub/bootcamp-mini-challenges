@@ -21,7 +21,19 @@ if(number > 10) {
     print("Number is 10 or less")
 }
 
-
-
 //3)
+var a = 5
+var b = 3
 
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+
+guard (a >= 5) else {
+    fatalError("Exiting program")
+}
+
+guard (a > 4 || b < 3) else {
+    fatalError("Exiting program")
+}
