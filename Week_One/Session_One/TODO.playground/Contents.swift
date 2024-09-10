@@ -8,9 +8,8 @@ Additionally, please feel free to ask your instructor if you need any help!
 
 //----------------------------------------------------------------------------//Part 2 - Coding\\----------------------------------------------------------------------\\
 
-//1)
+var greeting: String = "Hello, World!"
+let pi: Double = 3.14159
 
-//2)
 
-//3)
 
