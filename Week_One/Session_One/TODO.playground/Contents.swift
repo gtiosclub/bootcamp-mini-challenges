@@ -8,9 +8,15 @@ Additionally, please feel free to ask your instructor if you need any help!
 
 //----------------------------------------------------------------------------//Part 2 - Coding\\----------------------------------------------------------------------\\
 
-//1)
+//1) Variables and Constants
+var greeting : String = "Hello, World!"
+let pi = 3.14159
 
-//2)
+
+//2)Conditionals
+var number : Int
+
+if
 
 //3)
 
