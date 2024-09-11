@@ -1,6 +1,6 @@
 # Session 3: Coding Mini-Challenge
 
-Welcome to session 3 of bootcamp! Today, you'll tackle three short coding questions designed to test your understanding of basic concepts. Let's dive in!
+Welcome to session 2 of bootcamp! Today, you'll tackle three short coding questions designed to test your understanding of basic concepts. Let's dive in!
 
 ## Challenge Overview
 
