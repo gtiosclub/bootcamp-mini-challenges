@@ -9,9 +9,11 @@ Additionally, please feel free to ask your instructor if you need any help!
 //----------------------------------------------------------------------------//Part 2 - Coding\\----------------------------------------------------------------------\\
 
 //1)
-var explicit: String? dogName = nil
-var explicit: String? catName = "Dora"
+var explicit: String? dogName = nil;
+var explicit: String? catName = "Dora";
 //2)
-
+var explicit: String? myHouse = nil;
+var explicit: String? myTV = "";
+var explicit: String myTVUnwrapped = myTV!;
+let explicit: String myHouseUnwrapped = myHouse!;
 //3)
-
