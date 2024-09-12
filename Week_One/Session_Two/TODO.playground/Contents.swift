@@ -16,9 +16,27 @@ var catName: String? = "Dora"
 var myHouse: String? = nil
 var myTV: String?
 
-let myTVUnwrapped = myTV!
-let myHouseUnwrapped = myHouse!
+//let myTVUnwrapped = myTV!
+//let myHouseUnwrapped = myHouse!
 //an error occurs when trying to force unwrap nil values
 
 //3)
+var price: Int? = nil
+var myFavFruit: String? = "Strawberry"
+
+if let unwrappedPrice = price {
+    
+    print("This item's price is \(unwrappedPrice)")
+} else {
+    
+    print("This item is not for sale!")
+}
+
+if let unwrappedPrice = price, let unwrappedFruit = myFavFruit {
+    
+    print("The \(unwrappedFruit)'s price is \(unwrappedPrice).")
+} else {
+    
+    print("Error!")
+}
 
