@@ -13,6 +13,13 @@ var dogName: String? = nil
 var catName: String? = "Dora"
 
 //2)
+var myHouse: String? = nil
+var myTV: String? = nil
+
+let myTVUnwrapped = myTV!
+let myHouseUnwrapped = myHouse!
+
+//It says the playground encountered a crash and couldn't finish executing
 
 //3)
 
