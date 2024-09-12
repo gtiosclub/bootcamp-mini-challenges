@@ -14,12 +14,25 @@ var catName: String? = "Dora"
 
 //2)
 var myHouse: String? = nil
-var myTV: String? = nil
+var myTV: String?
 
-let myTVUnwrapped = myTV!
-let myHouseUnwrapped = myHouse!
+//let myTVUnwrapped = myTV!
+//let myHouseUnwrapped = myHouse!
 
 //It says the playground encountered a crash and couldn't finish executing
 
 //3)
+var price: Int? = nil
+var myFavFruit: String? = "Strawberry"
 
+if let unwrappedPrice = price {
+    print("This item's price is \(unwrappedPrice)")
+} else {
+    print("This item is not for sale!")
+}
+
+if let unwrappedFruit = myFavFruit, let unwrappedPrice = price {
+    print("The \(unwrappedFruit)'s price is \(unwrappedPrice)")
+} else {
+    print("Error!")
+}
