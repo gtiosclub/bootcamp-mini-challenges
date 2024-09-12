@@ -9,11 +9,26 @@ Additionally, please feel free to ask your instructor if you need any help!
 //----------------------------------------------------------------------------//Part 2 - Coding\\----------------------------------------------------------------------\\
 
 //1)
-var explicit: String? dogName = nil;
-var explicit: String? catName = "Dora";
+var dogName: String? = nil
+var catName: String? = "Dora"
 //2)
-var explicit: String? myHouse = nil;
-var explicit: String? myTV = "";
-var explicit: String myTVUnwrapped = myTV!;
-let explicit: String myHouseUnwrapped = myHouse!;
+var myHouse: String? = nil
+var myTV: String? = ""
+var myTVUnwrapped: String = myTV!
+// let myHouseUnwrapped: String = myHouse!
+// even though it's a constant, it is still trying to force unwrap nil, so the program is crashing
 //3)
+var price: Int? = nil
+var myFavFruit: String? = ""
+
+if let unwrappedPrice = price {
+    print("This item's price is \(unwrappedPrice)")
+} else {
+    print("This item is not for sale.")
+}
+
+if let unwrappedFruit = myFavFruit, let unwrappedPrice = price {
+    print("The \(unwrappedFruit)'s price is \(unwrappedPrice)")
+} else {
+    print("Error!")
+}
