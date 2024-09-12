@@ -16,8 +16,8 @@ var catName: String? = "Dora"
 var myHouse: String? = nil
 var myTV: String?
 
-//let myTVUnwrapped = myTV!
-//let myHouseUnwrapped = myHouse!
+let myTVUnwrapped = myTV!
+let myHouseUnwrapped = myHouse!
 
 //It says the playground encountered a crash and couldn't finish executing
 
