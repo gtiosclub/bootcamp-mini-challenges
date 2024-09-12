@@ -32,3 +32,16 @@ if let unwrappedFruit = myFavFruit, let unwrappedPrice = price {
 } else {
     print("Error!")
 }
+//4)
+guard let unwrappedPrice = price else {
+    print("Unavailable")
+    fatalError()
+}
+print("This item's price is \(unwrappedPrice)")
+
+guard let unwrappedPrice = price, let unwrappedFruit = myFavFruit else {
+    print("Unavailable")
+    fatalError()
+}
+print("The \(unwrappedFruit)'s price is \(unwrappedPrice)")
+let realPrice = price ?? 0
