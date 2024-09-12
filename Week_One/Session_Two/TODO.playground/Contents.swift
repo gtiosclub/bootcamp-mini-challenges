@@ -9,6 +9,8 @@ Additionally, please feel free to ask your instructor if you need any help!
 //----------------------------------------------------------------------------//Part 2 - Coding\\----------------------------------------------------------------------\\
 
 //1)
+var dogName: String? = nil
+var catName: String? = "Dora"
 
 //2)
 
