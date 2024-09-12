@@ -13,6 +13,12 @@ var dogName: String? = nil
 var catName: String? = "Dora"
 
 //2)
+var myHouse: String? = nil
+var myTV: String?
+
+let myTVUnwrapped = myTV!
+let myHouseUnwrapped = myHouse!
+//an error occurs when trying to force unwrap nil values
 
 //3)
 
