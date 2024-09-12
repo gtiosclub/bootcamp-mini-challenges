@@ -41,13 +41,7 @@ if let unwrappedPrice = price, let unwrappedFruit = myFavFruit {
 }
 
 //4)
-guard let unwrappedPrice = price else {
-    
-    print("Unavailable.")
-    fatalError()
-}
-
-print("This item's price is \(unwrappedPrice).")
+var realPrice = price ?? 0
 
 guard let unwrappedPrice = price, let unwrappedFruit = myFavFruit else {
     print("Unavailable.")
@@ -56,5 +50,5 @@ guard let unwrappedPrice = price, let unwrappedFruit = myFavFruit else {
 
 print("The \(unwrappedFruit)'s price is \(unwrappedPrice).")
 
-var realPrice = price ?? 0
+
 
