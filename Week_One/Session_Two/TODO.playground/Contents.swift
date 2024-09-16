@@ -23,8 +23,8 @@ let myHouseUnwrapped = myHouse!
 // if let statement
 var price: Int? = nil
 var myFavFruit: String? = "Strawberry"
-if let price{ // go through this
-    print("This item's price is \(price)")
+if let unwrappedPrice = price{ // go through this
+    print("This item's price is \(unwrappedPrice)")
 }else{
     print("This item is not for sale!")
 }
@@ -37,7 +37,7 @@ if let tempMyFavFruit = myFavFruit, let tempPrice = price{
 //4)
 var fallBack = 0
 var realPrice = price ?? fallBack
-guard let unwrappedPrice = price else{ // only works when condition == nil, can be used after
+guard let unwrappedPrice = price else{ // only works when condition == nil, unwrappedPrice can be used after guard block
     print("Unavailable")
     fatalError()
 }
@@ -51,9 +51,10 @@ print("The \(unwrappedFruit)'s price is \(unwrappedPrice)")
     
 // fallback using ??
 
-var hashMap : [Int, String] = [:] // initialize empty dict
+//var hashMap : [Int, String] = [:]
+// initialize empty dict
 
-// diff function syntadx for taking parameteres and returns
+// diff function syntadx for taking parameters and returns
 // use -> for when there is a return and put returnType
 // parameter - used in the input inside function
 // argument - used when called outside, cant be used inside function
