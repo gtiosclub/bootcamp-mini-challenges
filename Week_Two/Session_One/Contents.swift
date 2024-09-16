@@ -42,3 +42,10 @@ var ages: [String : Int] = ["Alice": 30, "Bob": 25, "Charlie": 35]
 for (name, age) in ages {
     print(name + ", " + age)
 }
+
+//7) Write a function called addNumbers that takes two integers as parameters and returns their sum.
+// Call the function with values 3 and 7 and print the result.
+func addNumbers(_ int1: Int, _ int2: Int) -> Int {
+    var sum: Int = int1 + int2
+}
+addNumbers(3, 7)
