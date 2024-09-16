@@ -23,3 +23,22 @@ print(myCandiesSet)
 //3)
 var months: [Int : String] = [1 : "January", 2 : "February", 3 : "March", 4 : "April", 5 : "May", 6 : "June", 7 : "July", 8 : "August", 9 : "September", 10 : "October", 11 : "November", 12 : "December"]
 print(months[12])
+//4)
+var fruits: [String] = ["Apple", "Banana", "Cherry"]
+for fruit in fruits {
+    print(fruit)
+}
+//5)
+var count = 0
+let limit = 5
+while count <= limit {
+    print(count)
+    count++
+}
+//6)
+// Create a dictionary ages = ["Alice": 30, "Bob": 25, "Charlie": 35].
+// Use a for loop to print each name and age.
+var ages: [String : Int] = ["Alice": 30, "Bob": 25, "Charlie": 35]
+for (name, age) in ages {
+    print(name + ", " + age)
+}
