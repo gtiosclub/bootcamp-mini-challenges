@@ -29,7 +29,7 @@ for fruit in fruits {
     print(fruit)
 }
 //5)
-var count = 0
+var count = 1
 let limit = 5
 while count <= limit {
     print(count)
