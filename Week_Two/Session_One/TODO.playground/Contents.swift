@@ -48,8 +48,13 @@ while count < 6{
 //6)
 var ages = ["Alice": 30, "Bob": 25, "Charlie": 35]
 for (key, val) in ages{
-    print(key)
-    print(val)
+    print("Age of \(key) is \(val)")
 }
-// loops
+
+//7)
+func addNumbers(_ param1: Int, _ param2: Int)-> Int{
+    return param1+param2
+}
+print(addNumbers(3, 7))
+
 
