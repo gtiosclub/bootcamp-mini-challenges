@@ -9,6 +9,10 @@ Additionally, please feel free to ask your instructor if you need any help!
 //----------------------------------------------------------------------------//Part 2 - Coding\\----------------------------------------------------------------------\\
 
 //1)
+var numbers: [Int] = [1, 2, 3, 4, 5]
+numbers.append(6)
+numbers.remove(at: 0)
+print(numbers)
 
 //2)
 
