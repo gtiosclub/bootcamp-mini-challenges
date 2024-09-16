@@ -1,10 +1,10 @@
-# Session 2: Coding Mini-Challenge
+# Session 3: Coding Mini-Challenge
 
-Welcome to session 3 of bootcamp! Today, you'll tackle three short coding questions designed to test your understanding of basic concepts. Let's dive in!
+Welcome to session 3 of bootcamp! Today, you'll tackle short coding questions designed to test your understanding of basic concepts. Let's dive in!
 
 ## Challenge Overview
 
-In this session, you'll complete three coding questions, each designed to reinforce key programming concepts. Be sure to read the instructions carefully and feel free to ask your instructor if you have any questions!
+In this session, you'll complete coding questions, each designed to reinforce key programming concepts. Be sure to read the instructions carefully and feel free to ask your instructor if you have any questions!
 
 ### Task 1: 
 1. Create an array of integers called numbers with the values [1, 2, 3, 4, 5].
