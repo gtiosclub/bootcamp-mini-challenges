@@ -16,7 +16,7 @@ Make sure to stage your answer and commit it to Github!
 ### Task 2:
 1. Create a `dictionary` with keys as `student names` and values as their `grades`: ["John": 90, "Jane": 85, "Jake": 88].
 2. Add a new student `Jim` with a grade of `92`.
-3.Print the grade of `Jane`.
+3. Print the grade of `Jane`.
 
 Make sure to stage your answer and commit it to Github!
 
