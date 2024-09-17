@@ -28,3 +28,16 @@ if let janeGrade = grades["Jane"] {
 var uniqueNumbers = Set([1,2,3,4,5])
 uniqueNumbers.insert(5)
 print("Set after adding 5:", uniqueNumbers)
+
+//3.5)
+var myCandies: [String] = []
+myCandies += ["Snickers", "M&M's"]
+var myCandiesSet: Set<String> = []
+myCandiesSet = Set(myCandies)
+myCandiesSet.formUnion(["Haribo", "Twix"])
+var months = [1: "January", 2: "February", 3: "March", 4: "April", 5: "May", 6: "June", 7: "July", 8: "August", 9: "September", 10: "October", 11: "November", 12: "December"]
+if let month = months[14] {
+    print("Month 14 is \(month)")
+} else {
+    print("There is no month 14.")
+}
