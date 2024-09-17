@@ -17,4 +17,6 @@ var studentNames : [String : Int] = ["John": 90, "Jane": 85, "Jake": 88]
 studentNames["Jim"] = 90
 print(studentNames["Jane"])
 //3)
-
+var uniqueNumbers: Set<Int> = [1, 2, 3, 4, 5]
+//uniqueNumbers.insert(5)
+print(uniqueNumbers)
