@@ -20,3 +20,24 @@ print(studentNames["Jane"])
 var uniqueNumbers: Set<Int> = [1, 2, 3, 4, 5]
 //uniqueNumbers.insert(5)
 print(uniqueNumbers)
+//extra)
+var myCandies: [String] = []
+myCandies += ["Kitkat", "M&Ms"]
+var myCandiesSet: Set<String>
+myCandiesSet = ["Kitkat", "M&Ms"]
+//4)
+var fruits: [String] = ["Apple", "Banana", "Cherry"]
+for fruit in fruits {
+    print(fruit)
+}
+//7)
+//extra)
+func findMinMax(value1: [Int]) -> (Int, Int)? {
+    if value1.isEmpty == true {
+        return nil
+    }
+    var currentMin = value1[0]
+    var currentMax = value1[0]
+    
+}
+
