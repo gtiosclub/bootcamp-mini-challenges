@@ -11,7 +11,7 @@ In this session, you'll complete coding questions, each designed to reinforce ke
 2. Add the number `6` to the array and print the updated array.
 3. Remove the first element and print the updated array.
 
-Make sure to stage your answer and commit it to Github!
+Make sure to sta your answer and commit it to Github!
 
 ### Task 2:
 1. Create a `dictionary` with keys as `student names` and values as their `grades`: ["John": 90, "Jane": 85, "Jake": 88].
@@ -66,6 +66,6 @@ Make sure to stage your answer and commit it to Github!
 git commit -m "{describe what changes you made to the file here}"
 ```
 3. If the previous step was already complete, save your changes to the remote repository as follows.
-```bash
+```abash
 git push
 ```
