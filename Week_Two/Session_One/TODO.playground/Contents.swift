@@ -45,7 +45,7 @@ for (person, age) in ages {
 func addNumbers(number1: Int, number2: Int) -> Int {
     return (number1 + number2)
 }
-
+// if we did... addNumbers(_ num1: Int, _ num2: Int) ... then addNumbers(3, 7)
 print(addNumbers(number1: 3, number2: 7))
 
 
