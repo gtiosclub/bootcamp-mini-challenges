@@ -12,15 +12,28 @@ func sayHello() {
     print("Hello!")
 }
 
-var greet = sayHello()
+var greet = sayHello // greet should store the type, not the output
 greet
 greet()
 
-let sayHelloClosure = {print("Hello there!")}
+let sayHelloClosure = { print("Hello there!") }
 sayHelloClosure
 sayHelloClosure()
 //2)
+let sayHelloClosureWithParameters = { (word: String) -> () in
+    print("Hello there, \(word)")
+}
 
+let sayHelloClosuresWithParameterAndRet = { (name: String) -> (String) in
+    return("Hello there, \(name)")
+}
+sayHelloClosuresWithParameterAndRet("Rini")
+
+func mySeatingArrangement(neighbors: String) -> () {
+    print("I sit next to \(neighbors)")
+}
+
+mySeatingArrangement(neighbors: "Rini")
 //3)
 
 //...
