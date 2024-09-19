@@ -43,4 +43,23 @@ if let month = months[14] {
 }
 
 //4)
+var fruits = ["Apple", "Banana", "Cherry"]
+for fruit in fruits {
+    print(fruit)
+}
 
+// implement 5-7..
+
+//7.5)
+func findMinMax(Int) -> (Int, Int)? {
+    guard !array.isEmpty else {
+        return nil
+    }
+    var currentMin = array[0]
+    var currentMax = array[0]
+    for value in array {
+        if value < currentMin {
+            
+        }
+    }
+}
