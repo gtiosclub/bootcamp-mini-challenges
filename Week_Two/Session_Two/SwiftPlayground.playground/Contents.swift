@@ -24,12 +24,16 @@ func mySeatingArrangement(neighbors: [String]) {
 mySeatingArrangement(neighbors: ["Esteban", "Aziz"])
 
 
-
 //1)
-
+let sumClosure { (Int, Int) -> Int = (a: Int, b: Int) in
+    return a + b
+}
+sumClosure(3,5)
 
 //2)
 
 //3)
 
-//...
+//4)
+
+//5)
