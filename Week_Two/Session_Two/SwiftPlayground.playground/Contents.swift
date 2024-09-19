@@ -8,7 +8,17 @@ Additionally, please feel free to ask your instructor if you need any help!
 //----------------------------------------------------------------------------//Part 2 - Coding\\----------------------------------------------------------------------\\
 
 //1)
+func sayHello() {
+    print("Hello!")
+}
 
+var greet = sayHello()
+greet
+greet()
+
+let sayHelloClosure = {print("Hello there!")}
+sayHelloClosure
+sayHelloClosure()
 //2)
 
 //3)
