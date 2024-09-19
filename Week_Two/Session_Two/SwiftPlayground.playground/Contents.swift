@@ -32,8 +32,28 @@ sayHelloClosuresWithParameterAndRet("Rini")
 func mySeatingArrangement(neighbors: String) -> () {
     print("I sit next to \(neighbors)")
 }
-
 mySeatingArrangement(neighbors: "Rini")
 //3)
+var first30Fibonacci = 0..<30
+first30Fibonacci.map(let fibonacci = { () -> () in
+    var first = 0
+    var second = 1
+    for _ in 0..number {
+        let prev = first
+        first = second
+        second = prev + first
+    }
+    return first
+})
 
+//func map(closure: () {
+//    var first = 0
+//    var second = 1
+//    for _ in 0..number {
+//    let prev = first
+//    first = second
+//    second = prev + first
+//    }
+//    return first
+//}
 //...
