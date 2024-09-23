@@ -11,6 +11,7 @@ In this session, you'll complete coding questions, each designed to reinforce ke
 2. Add the number `6` to the array and print the updated array.
 3. Remove the first element and print the updated array.
 
+
 Make sure to stage your answer and commit it to Github!
 
 ### Task 2:
