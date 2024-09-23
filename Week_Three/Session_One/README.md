@@ -12,14 +12,14 @@ Add a Button that prints `"Button tapped"` when pressed.
 
 Make sure to stage your answer and commit it to Github!
 
-### Task 2:
-Create a SwiftUI view with a `Toggle` that switches between "On" and "Off", and a Text view that displays the current state.
-   
-Make sure to stage your answer and commit it to Github!
-
-### Task 3: 
+### Task 2: 
 Create a SwiftUI view that arranges three `Text` components in a `VStack`, an `HStack`, and a `ZStack`.
 
+Make sure to stage your answer and commit it to Github!
+
+### Task 3:
+Create a SwiftUI view with a `Toggle` that switches between "On" and "Off", and a Text view that displays the current state.
+   
 Make sure to stage your answer and commit it to Github!
 
 ### Task 4: 
