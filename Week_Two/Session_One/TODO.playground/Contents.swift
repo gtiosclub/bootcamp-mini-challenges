@@ -95,3 +95,5 @@ func findMinMax(_ paramname: [Int]) -> (Int,Int)?{
 if let minMax = findMinMax([0,2,3,4,5,100]) {
     print(minMax)
 }
+
+
