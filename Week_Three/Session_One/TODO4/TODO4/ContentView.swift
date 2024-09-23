@@ -10,12 +10,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hello Swift!")
+                .font(.largeTitle)
+                .foregroundStyle(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                .padding()
+                //.frame(width: 200, height: 200) //frame overrides things that come before it. However, not after.
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(.yellow)
+                
         }
-        .padding()
     }
 }
 
