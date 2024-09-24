@@ -13,7 +13,7 @@ struct ContentView: View {
             Text("Hello, Swift!")
                 .font(.largeTitle)
                 .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
-                .padding()
+            
                 .frame(width: 200, height: 100)
                 .background(.yellow)
         }
