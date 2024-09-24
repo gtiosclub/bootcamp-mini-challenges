@@ -12,10 +12,9 @@ struct ContentView: View {
         VStack {
             Text("Welcome to Swift UI!")
             Button("Button!") {
-                print("This is what happens when you click a button.")
+                print("Button tapped.")
             }
         }
-        .padding()
     }
 }
 
