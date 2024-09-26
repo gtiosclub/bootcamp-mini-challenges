@@ -9,6 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        Text("Hi")
+        Button("Button", action: {
+            print("Pressed")
+        })
+        HStack {
+            Text("H")
+            Text("i")
+        }
+        ZStack {
+            Text("Z")
+            Text("i")
+        }
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
