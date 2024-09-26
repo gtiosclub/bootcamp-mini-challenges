@@ -8,16 +8,15 @@
 import SwiftUI
 
 struct TODO5: View {
-    
+    @State var count = 0
     // TODO: modify the following view according to task 5
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("\(count)")
+            Button("Tap to increment", action: {
+                count += 1
+            })
         }
-        .padding()
     }
 }
 
