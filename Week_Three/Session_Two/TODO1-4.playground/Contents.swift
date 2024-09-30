@@ -15,16 +15,24 @@ struct Rectangle {
     
 }
 
+<<<<<<< HEAD
 let rect = Rectangle(width: 4, height: 3)
 print(rect.area)
+=======
+
+>>>>>>> 12fb304c7cb60909d7c488c98dade0939dbb1734
 //2)
 struct Point {
     var x: Int
     var y: Int
 }
 
+<<<<<<< HEAD
 let point = Point(x: 3, y: 5)
 point.x = 4 //error occurs because constants are immutable
+=======
+
+>>>>>>> 12fb304c7cb60909d7c488c98dade0939dbb1734
 //3)
 class Circle {
     var radius: Double
@@ -41,6 +49,7 @@ let circle = Circle(radius: 3.0)
 print(circle.circumferance())
 
 //4)
+<<<<<<< HEAD
 class Car {
     var model: String
     
@@ -55,3 +64,6 @@ var car2 = car1
 car1.model = "BMW"
 print(car1.model)
 print(car2.model)
+=======
+
+>>>>>>> 12fb304c7cb60909d7c488c98dade0939dbb1734
