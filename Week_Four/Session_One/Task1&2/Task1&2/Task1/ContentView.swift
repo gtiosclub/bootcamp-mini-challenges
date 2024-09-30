@@ -7,15 +7,34 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    @State private var name: String = ""
+    @State private var age: String = ""
+    @State private var message: String = ""
+
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            TextField("Please enter your name",text: $name)
+            TextField("Please enter your age", text: $age)
+            
+            Button("Submit") {
+                validateForm()
+            }
+            Text(message)
         }
-        .padding()
+
+    }
+    
+    func validateForm() {
+        if name.isEmpty {
+            message = "Please enter a name"
+        } else if Int(age) == nil {
+            message = "Please enter an age"
+        } else{
+            message = "Confirmation"
+        }
     }
 }
 

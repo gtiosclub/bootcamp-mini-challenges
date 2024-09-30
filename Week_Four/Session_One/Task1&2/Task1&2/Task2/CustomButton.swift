@@ -8,9 +8,22 @@
 import SwiftUI
 
 struct CustomButton: View {
+    @State private var buttonMessage: String = ""
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TextField("Enter button text", text: $buttonMessage)
+            .textFieldStyle(RoundedBorderTextFieldStyle())
+            .padding()
+
+        Button(buttonMessage.isEmpty ? "Default Button Text" : buttonMessage) {
+            onPress()
+        }
     }
+    
+    func onPress() {
+        print("Button pressed with text: \(buttonMessage)")
+    }
+
 }
 
 #Preview {

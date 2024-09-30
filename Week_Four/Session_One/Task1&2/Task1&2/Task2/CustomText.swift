@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct CustomText: View {
+    @State private var displayText: String = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TextField("Text to display", text: $displayText)
     }
 }
 
