@@ -7,21 +7,20 @@ Welcome to session 8 of bootcamp! Today, you'll tackle short coding questions de
 In this session, you'll complete coding questions, each designed to reinforce key programming concepts. Be sure to read the instructions carefully and feel free to ask your instructor if you have any questions!
 
 ### Task 1: 
-Task:
 
-1. Create a SwiftUI View that contains two TextFields for user input: one for entering a name and another for entering an age.
-2. Use @State properties to manage the input values.
-3. Display a greeting message that uses both the name and age values.
-4. Add a Button to validate the form:
+1. Open the Xcode project called `Task1&2` by opening the `Task1&2.xcodeproj` file. Work on the `Task1` folder.
+2. Create a SwiftUI View that contains two `TextField`s for user input: one for entering a name and another for entering an age.
+3. Use `@State` properties to manage the input values.
+4. Display a greeting message that uses both the name and age values.
+5. Add a `Button` to validate the form:
 If the name is empty or the age is not a valid number, show an error message.
 Otherwise, show a confirmation message.
 Use appropriate view modifiers to style the form elements.
 
-
 Make sure to stage your answer and commit it to Github!
 
 ### Task 2:
- 1. Open Xcode -> New File -> App
+ 1. Open the Xcode project called `Task1&2` by opening the `Task1&2.xcodeproj` file. Work on the `Task1` folder.
  2. Create three SwiftUI views in separate files: CustomButton, CustomText, HomePage.
  3. CustomButton should take in a String buttonMessage representing the button’s text, as well as a closure onPress representing what gets executed after the button is pressed.
  4. CustomText should take in a String displayText representing the text to display.
@@ -30,15 +29,15 @@ Make sure to stage your answer and commit it to Github!
 Make sure to stage your answer and commit it to Github!
 
 ### Task 3: 
- Easy:
- 1. Create an enum describing a season (spring, summer, autumn, winter).
- 2. Declare a variable called currentSeason, initialize it with the summer season.
- Medium - search “swift enum with named associated values”. We didn’t discuss this yet:
- 
- 1. Spring must take in a Bool called manyFlowersOutside when initialized.
- 2. Summer must take in a Bool called iceCreamNeeded when initialized.
- 3. Autumn must take in a Bool called leavesTurnedOrange when initialized.
- 4. Winter must take in a Bool called isSnowing and an Int called temp when initialized.
+Easy:
+ 1. Create an `enum` describing a season (`spring`, `summer`, `autumn`, `winter`).
+ 2. Declare a variable called `currentSeason`, initialize it with the `summer` season.
+
+Medium - search “swift enum with named associated values”. We didn’t discuss this yet:
+ 1. Spring must take in a `Bool` called `manyFlowersOutside` when initialized.
+ 2. Summer must take in a `Bool called `iceCreamNeeded` when initialized.
+ 3. Autumn must take in a `Bool` called `leavesTurnedOrange` when initialized.
+ 4. Winter must take in a `Bool` called `isSnowing` and an `Int` called `temp` when initialized.
   Edit the variable currentSeason to include a season of your choice with a value for its associated value.
   
   Note: Allow each case to take custom inputs. 
@@ -47,14 +46,14 @@ Make sure to stage your answer and commit it to Github!
 
 ### Task 4: 
  If you didn’t create associated values for each case in the previous challenge, do so now.
- 1. Spring must take in a Bool called manyFlowersOutside when initialized.
- 2. Summer must take in a Bool called iceCreamNeeded when initialized.
- 3. Autumn must take in a Bool called leavesTurnedOrange when initialized.
- 4. Winter must take in a Bool called isSnowing and an Int called temp when initialized.
- 5. Create a function called get() within your enum that returns the associated value of the chosen case. (NOTE: for winter, just return the first value isSnowing)
- 6. You must use a switch statement to return the associated value
- 7. Print the result of the get() method for currentSeason
- 8. Create a function inside the enum called getTemp() which returns the temp associated value for winter if the chosen case is winter. Otherwise, return nil to denote that there is no temperature value.
+ 1. Spring must take in a `Bool` called `manyFlowersOutside` when initialized.
+ 2. Summer must take in a `Bool` called `iceCreamNeeded` when initialized.
+ 3. Autumn must take in a `Bool` called `leavesTurnedOrange` when initialized.
+ 4. Winter must take in a `Bool` called `isSnowing` and an `Int` called `temp` when initialized.
+ 5. Create a function called `get()` within your `enum` that returns the associated value of the chosen case. (NOTE: for winter`, just return the first value `isSnowing`)
+ 6. You must use a `switch` statement to return the associated value
+ 7. Print the result of the `get()` method for `currentSeason`
+ 8. Create a function inside the `enum` called `getTemp()` which returns the `temp` associated value for `winter` if the chosen case is winter. Otherwise, return `nil` to denote that there is no temperature value.
 
 Make sure to stage your answer and commit it to Github!
 
