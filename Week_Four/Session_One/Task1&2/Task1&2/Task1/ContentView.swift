@@ -10,57 +10,50 @@ import SwiftUI
 struct ContentView: View {
     @State private var name: String = ""
     @State private var age: String = ""
-    @State private var errorMessage: String?
-    @State private var greetingMessage: String?
+    @State private var message: String = ""
+    @State private var isError: Bool = false
 
     var body: some View {
         VStack(spacing: 20) {
             TextField("Enter your name", text: $name)
                 .padding()
-                .background(Color(.systemGray6))
-                .cornerRadius(8)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .frame(width: 250)
 
             TextField("Enter your age", text: $age)
                 .padding()
-                .background(Color(.systemGray6))
-                .cornerRadius(8)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .frame(width: 250)
                 .keyboardType(.numberPad)
 
             Button("Submit") {
-                validateForm()
+                validateInput()
             }
             .padding()
             .background(Color.blue)
             .foregroundColor(.white)
-            .cornerRadius(8)
+            .cornerRadius(10)
 
-            if let errorMessage = errorMessage {
-                Text(errorMessage)
-                    .foregroundColor(.red)
-                    .padding(.top)
-            }
+            Text(message)
+                .foregroundColor(isError ? .red : .green)
+                .padding()
 
-            if let greetingMessage = greetingMessage {
-                Text(greetingMessage)
-                    .foregroundColor(.green)
-                    .padding(.top)
-            }
+            Spacer()
         }
         .padding()
     }
 
-    private func validateForm() {
-        errorMessage = nil
-        greetingMessage = nil
-        guard !name.isEmpty else {
-            errorMessage = "Name cannot be empty."
-            return
+    private func validateInput() {
+        if name.isEmpty {
+            message = "Name cannot be empty."
+            isError = true
+        } else if Int(age) == nil || age.isEmpty {
+            message = "Please enter a valid age."
+            isError = true
+        } else {
+            message = "Hello, \(name)! You are \(age) years old."
+            isError = false
         }
-        guard let ageInt = Int(age), ageInt > 0 else {
-            errorMessage = "Please enter a valid age."
-            return
-        }
-        greetingMessage = "Hello, \(name)! You are \(ageInt) years old."
     }
 }
 
