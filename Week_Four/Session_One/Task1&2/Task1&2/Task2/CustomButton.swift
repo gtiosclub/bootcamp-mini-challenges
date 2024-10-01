@@ -1,18 +1,23 @@
-//
-//  CustomButton.swift
-//  Task1&2
-//
-//  Created by Abdulaziz Albahar on 9/30/24.
-//
-
 import SwiftUI
 
 struct CustomButton: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: {
+            // Action goes here
+            print("Button was tapped")
+        }) {
+            Text("Custom Button")
+                .font(.title2)
+                .bold()
+                .foregroundColor(.white)
+                .frame(width: 200, height: 80)
+                .background(Color.brown)
+                .clipShape(Capsule())
+        }
     }
 }
 
 #Preview {
     CustomButton()
 }
+
