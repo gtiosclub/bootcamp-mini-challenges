@@ -17,8 +17,12 @@ class Circle {
     }
 }
 
+<<<<<<< HEAD
 let circle1 = Circle(radius: 3.0)
 print(circle1.circumference())
+=======
+
+>>>>>>> 12fb304c7cb60909d7c488c98dade0939dbb1734
 //2)
 class Car {
     var model: String
