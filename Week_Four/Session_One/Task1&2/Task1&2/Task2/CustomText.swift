@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct CustomText: View {
+    let displayText : String
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(displayText)
+            .foregroundStyle(.brown)
+            .font(.largeTitle)
+            .fontWeight(.medium)
+            .underline()
     }
 }
 
-#Preview {
-    CustomText()
-}

@@ -8,11 +8,20 @@
 import SwiftUI
 
 struct CustomButton: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+    let buttonMessage: String
+    let onPress: () -> Void
 
-#Preview {
-    CustomButton()
+    var body: some View {
+        Button(action: {
+            onPress()
+        }) {
+            Text(buttonMessage)
+                .bold()
+                .foregroundColor(.white)
+                .frame(width: 200, height: 80)
+                .background(Color.brown)
+                .clipShape(Capsule())
+                .font(.title2)
+        }
+    }
 }
