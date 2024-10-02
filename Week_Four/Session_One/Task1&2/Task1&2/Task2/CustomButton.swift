@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct CustomButton: View {
+    @State var buttonMessage: String = ""
+    @State var onPress: String = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TextField("Enter your button name", text: $buttonMessage)
+        TextField("What would you like the button to do?", text: $onPress)
+        var assignText = { (onPress: String) -> (String) in
+            let newText = onPress
+            return newText
+        }
+        Button(action: assignText)
+               , label: {
+            Text(buttonMessage)
+        })
     }
 }
 
