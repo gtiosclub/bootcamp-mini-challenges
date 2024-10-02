@@ -6,8 +6,6 @@ Welcome to session 9 of bootcamp! Today, you'll tackle short coding questions de
 
 In this session, you'll complete coding questions, each designed to reinforce key programming concepts. Be sure to read the instructions carefully and feel free to ask your instructor if you have any questions!
 
-Start with: Open Xcode -> New File -> App
-
 ### Task 1: 
 Create a Struct Conforming to Multiple Protocols
 
