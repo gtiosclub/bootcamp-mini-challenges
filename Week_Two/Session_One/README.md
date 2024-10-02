@@ -7,46 +7,82 @@ Welcome to session 3 of bootcamp! Today, you'll tackle short coding questions de
 In this session, you'll complete coding questions, each designed to reinforce key programming concepts. Be sure to read the instructions carefully and feel free to ask your instructor if you have any questions!
 
 ### Task 1: 
+<<<<<<< HEAD
 1. Create an `array` of integers called numbers with the values [1, 2, 3, 4, 5].
 2. Add the number `6` to the array and print the updated array.
+=======
+1. Create an array of integers called numbers with the values [1, 2, 3, 4, 5].
+2. Add the number 6 to the array and print the updated array.
+>>>>>>> 25ed498cc940cfff5a632324012bf3c0b28a824e
 3. Remove the first element and print the updated array.
 
 Make sure to stage your answer and commit it to Github!
 
 ### Task 2:
+<<<<<<< HEAD
 1. Create a `dictionary` with keys as `student names` and values as their `grades`: ["John": 90, "Jane": 85, "Jake": 88].
 2. Add a new student `Jim` with a grade of `92`.
 3. Print the grade of `Jane`.
+=======
+1. Create a dictionary with keys as student names and values as their grades: ["John": 90, "Jane": 85, "Jake": 88].
+2. Add a new student Jim with a grade of 92.
+3.Print the grade of Jane.
+>>>>>>> 25ed498cc940cfff5a632324012bf3c0b28a824e
 
 Make sure to stage your answer and commit it to Github!
 
 ### Task 3: 
+<<<<<<< HEAD
 1. Create a `set` of numbers called `uniqueNumbers` with the values [1, 2, 3, 4, 5].
 2. Add the number 5 to the `set` and observe what happens.
 3. Print the `set`.
+=======
+1. Create a set of numbers called uniqueNumbers with the values [1, 2, 3, 4, 5].
+2. Add the number 5 to the set and observe what happens.
+3. Print the set.
+>>>>>>> 25ed498cc940cfff5a632324012bf3c0b28a824e
 
 Make sure to stage your answer and commit it to Github!
 
 ### Task 4: 
+<<<<<<< HEAD
 1. Create an `array of strings` called `fruits` with the values ["Apple", "Banana", "Cherry"].
 2. Use a for loop to print each `fruit` in the `array`.
+=======
+1. Create an array of strings called fruits with the values ["Apple", "Banana", "Cherry"].
+2. Use a for loop to print each fruit in the array.
+>>>>>>> 25ed498cc940cfff5a632324012bf3c0b28a824e
 
 Make sure to stage your answer and commit it to Github!
 
 ### Task 5: 
+<<<<<<< HEAD
 1.  Use a `while` loop to print the numbers from 1 to 5.
+=======
+1.  Use a while loop to print the numbers from 1 to 5.
+>>>>>>> 25ed498cc940cfff5a632324012bf3c0b28a824e
 
 Make sure to stage your answer and commit it to Github!
 
 ### Task 6: 
+<<<<<<< HEAD
 1. Create a `dictionary` `ages` = ["Alice": 30, "Bob": 25, "Charlie": 35].
 2. Use a for loop to print each `name` and `age`.
+=======
+1. Create a dictionary ages = ["Alice": 30, "Bob": 25, "Charlie": 35].
+2. Use a for loop to print each name and age.
+>>>>>>> 25ed498cc940cfff5a632324012bf3c0b28a824e
 
 Make sure to stage your answer and commit it to Github!
 
 ### Task 7: 
+<<<<<<< HEAD
 1. Write a function called `addNumbers` that takes two integers as `parameters` and returns their `sum`.
 2. Call the `function` with values 3 and 7 and print the result.
+=======
+1. Write a function called addNumbers that takes two integers as parameters and returns their sum.
+2. Call the function with values 3 and 7 and print the result.
+>>>>>>> 25ed498cc940cfff5a632324012bf3c0b28a824e
 
 Make sure to stage your answer and commit it to Github!
 

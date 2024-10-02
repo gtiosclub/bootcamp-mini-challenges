@@ -7,16 +7,17 @@
 
 import SwiftUI
 
+// TODO: Make text element's frame to take up full width space from left to right
+
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Text("Hello, Swift!")
+            .font(.largeTitle)
+            .foregroundColor(.blue)
+            .padding()
+            .frame(maxWidth: .infinity)
+            .background(Color.yellow)
         }
-        .padding()
-    }
 }
 
 #Preview {
