@@ -8,11 +8,18 @@
 import SwiftUI
 
 struct CustomButton: View {
+    @Binding var buttonMessage: String
+    @Binding var onPress() -> Void
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: {
+            onPress()
+        }) {
+            Text(buttonMessage)
+        }
     }
 }
 
 #Preview {
-    CustomButton()
+    CustomButton(buttonMessage:.constant("Hello"), print("hello"))
 }
