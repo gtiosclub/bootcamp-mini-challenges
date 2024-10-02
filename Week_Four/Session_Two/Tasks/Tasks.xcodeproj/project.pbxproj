@@ -14,6 +14,7 @@
 		0BEEBF602CADD14E007AD951 /* TasksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEEBF5F2CADD14E007AD951 /* TasksTests.swift */; };
 		0BEEBF6A2CADD14E007AD951 /* TasksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEEBF692CADD14E007AD951 /* TasksUITests.swift */; };
 		0BEEBF6C2CADD14E007AD951 /* TasksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEEBF6B2CADD14E007AD951 /* TasksUITestsLaunchTests.swift */; };
+		5BF186B32CAE0A8A004D966C /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF186B22CAE0A8A004D966C /* AnimalModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		0BEEBF652CADD14E007AD951 /* TasksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BEEBF692CADD14E007AD951 /* TasksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksUITests.swift; sourceTree = "<group>"; };
 		0BEEBF6B2CADD14E007AD951 /* TasksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5BF186B22CAE0A8A004D966C /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				0BEEBF4E2CADD14C007AD951 /* TasksApp.swift */,
 				0BEEBF502CADD14C007AD951 /* ContentView.swift */,
+				5BF186B22CAE0A8A004D966C /* AnimalModel.swift */,
 				0BEEBF522CADD14E007AD951 /* Assets.xcassets */,
 				0BEEBF542CADD14E007AD951 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BEEBF512CADD14C007AD951 /* ContentView.swift in Sources */,
+				5BF186B32CAE0A8A004D966C /* AnimalModel.swift in Sources */,
 				0BEEBF4F2CADD14C007AD951 /* TasksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
