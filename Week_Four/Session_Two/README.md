@@ -9,25 +9,24 @@ In this session, you'll complete coding questions, each designed to reinforce ke
 Start with: Open Xcode -> New File -> App
 
 ### Task 1: 
-Task: Create a Struct Conforming to Multiple Protocols
+Create a Struct Conforming to Multiple Protocols
 
-1. Create a struct called Animal that conforms to both the Identifiable and Equatable protocols.
-2. The Animal struct should have an id (of type UUID), name (of type String), and type (of type String).
-3. Create two instances of Animal and check if they are equal.
-
+1. Create an enum called AnimalCategory with cases mammal, reptile, bird
+2. The enum should have a property `title`, that returns the case name as a String
+3. Create a struct called `Animal` that conforms to both the `Identifiable` and `Equatable` protocols.
+4. The Animal struct should have an `id` (of type UUID), `name` (of type String), and `type` (of type AnimalCategory).
+5. Create two instances of `Animal` and check if they are equal.
 
 Make sure to stage your answer and commit it to Github!
 
 ### Task 2:
-Task: Display a List of Animals
+Display a List of Animals
 
-1. Create a SwiftUI View that displays a list of animals using a List and ForEach.
+1. Create a SwiftUI View that displays a list of animals using a `List`.
 2. The list should display the name of each animal as a headline and the type of animal as a subheadline.
+3. See the slides for a visual on how it should look like.
 
 Make sure to stage your answer and commit it to Github!
-
-
-
 
 ## Done?
 1. Before logging and saving your changes remotely, you need to specify the changed files you want to save:
