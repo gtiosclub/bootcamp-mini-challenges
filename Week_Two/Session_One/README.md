@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Session 3: Coding Mini-Challenge
 
 Welcome to session 3 of bootcamp! Today, you'll tackle short coding questions designed to test your understanding of basic concepts. Let's dive in!
@@ -69,3 +70,6 @@ git commit -m "{describe what changes you made to the file here}"
 ```bash
 git push
 ```
+=======
+
+>>>>>>> 4ebcad6 (Create README.md)
