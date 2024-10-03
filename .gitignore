@@ -60,5 +60,8 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+<<<<<<< HEAD
 
 .DS_Store
+=======
+>>>>>>> ae94003 (Added Swift .gitignore)
